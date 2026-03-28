@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #E3DDD4;
+  --color-brand-black: #111111;
+  --color-brand-accent: #C8B6A6;
+  
+  --font-serif: "Cormorant Garamond", serif;
+  --font-script: "Great Vibes", cursive;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-black);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
